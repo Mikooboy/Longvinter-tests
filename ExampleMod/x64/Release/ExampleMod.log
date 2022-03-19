@@ -1,0 +1,54 @@
+﻿  ExampleMod.cpp
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Logger.h(112,34): warning C4251: 'Log::LogArray': class 'std::vector<std::string,std::allocator<std::string>>' needs to have dll-interface to be used by clients of class 'Log'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Logger.h(112): message : see declaration of 'std::vector<std::string,std::allocator<std::string>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\GameInfo\GameInfo.h(40,14): warning C4251: 'GameProfile::ProfileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameProfile'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\GameInfo\GameInfo.h(41,14): warning C4251: 'GameProfile::LoaderPath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameProfile'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\GameInfo\GameInfo.h(43,14): warning C4251: 'GameProfile::BeginPlayOverwrite': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameProfile'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\Basic.hpp(216,29): warning C4018: '<': signed/unsigned mismatch
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\Basic.hpp(247,78): warning C4018: '>=': signed/unsigned mismatch
+  The contents of <string_view> are available only with C++17 or later.
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(30,23): warning C4251: 'Global::ModInfoList': class 'std::vector<ModInfo,std::allocator<ModInfo>>' needs to have dll-interface to be used by clients of class 'Global'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(30): message : see declaration of 'std::vector<ModInfo,std::allocator<ModInfo>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(31,14): warning C4251: 'Global::GameName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Global'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(33,26): warning C4251: 'Global::CoreMods': class 'std::vector<Mod *,std::allocator<Mod *>>' needs to have dll-interface to be used by clients of class 'Global'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(33): message : see declaration of 'std::vector<Mod *,std::allocator<Mod *>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(34,33): warning C4251: 'Global::BPFunctionWrappers': class 'std::vector<Global::BPFunctionWrapper,std::allocator<Global::BPFunctionWrapper>>' needs to have dll-interface to be used by clients of class 'Global'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(34): message : see declaration of 'std::vector<Global::BPFunctionWrapper,std::allocator<Global::BPFunctionWrapper>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Utilities\Globals.h(35,18): warning C4251: 'Global::eventSystem': class 'EventDispatcher' needs to have dll-interface to be used by clients of class 'Global'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\EventSystem.h(39): message : see declaration of 'EventDispatcher'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Mod\Mod.h(13,14): warning C4251: 'Mod::ModName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Mod'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Mod\Mod.h(14,14): warning C4251: 'Mod::ModVersion': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Mod'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Mod\Mod.h(15,14): warning C4251: 'Mod::ModDescription': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Mod'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Mod\Mod.h(16,14): warning C4251: 'Mod::ModAuthors': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Mod'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UnrealEngineModLoader\Mod\Mod.h(17,14): warning C4251: 'Mod::ModLoaderVersion': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Mod'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(55,25): warning C4099: 'UE4::UStaticMesh': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(408): message : see declaration of 'UE4::UStaticMesh'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(56,25): warning C4099: 'UE4::UStaticMesh': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(408): message : see declaration of 'UE4::UStaticMesh'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(60,24): warning C4099: 'UE4::USoundBase': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(388): message : see declaration of 'UE4::USoundBase'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(61,24): warning C4099: 'UE4::USoundBase': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(388): message : see declaration of 'UE4::USoundBase'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(81,25): warning C4099: 'UE4::UStaticMesh': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(408): message : see declaration of 'UE4::UStaticMesh'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(84,24): warning C4099: 'UE4::UTexture2D': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\UnrealEngineModLoader\UE4\CoreUObject_classes.hpp(398): message : see declaration of 'UE4::UTexture2D'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(93,106): warning C4099: 'UE4::TArray<FcraftingRequirements>': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(93): message : see declaration of 'UE4::TArray<FcraftingRequirements>'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(105,54): warning C4099: 'UE4::TArray<FS_ItemData_Rename2>': type name first seen using 'class' now seen using 'struct'
+D:\misc\UnrealModLoader-main\ExampleMod\Longvinter.h(105): message : see declaration of 'UE4::TArray<FS_ItemData_Rename2>'
+  Generating code
+  0 of 375 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ExampleMod.vcxproj -> F:\SteamLibrary\steamapps\common\Longvinter\Longvinter\Content\CoreMods\ExampleMod.dll
